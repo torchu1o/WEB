@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofoliu Tudor Sebastian</title>
+    <style>
+        body { font-family: 'Times New Roman', Times, serif, sans-serifro; line-height: 1.6; margin: 0; padding: 0; }
+        header, footer { background: #41264a; color: white; text-align: center; padding: 15px; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        main { padding: 20px; }
+        section { margin-bottom: 30px; }
+        .gallery img { width: 30%; margin: 10px; border-radius: 10px; }
+        .contact-info p { font-size: 18px; }
+        .btn { background: #333; color: white; padding: 10px; text-decoration: none; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portofoliu Tudor Sebastian</h1>
+        <nav>
+            <a href="#despre">Despre</a>
+            <a href="#servicii">Servicii</a>
+            <a href="#galerie">Galerie</a>
+            <a href="#testimoniale">Testimoniale</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="despre">
+            <h2>Despre mine</h2>
+            <p>Sunt Tudor Sebastian, fotograf profesionist, specializat în evenimente și ședințe foto.</p>
+        </section>
+        
+        <section id="servicii">
+            <h2>Servicii oferite</h2>
+            <ul>
+                <li><strong>Majorat:</strong> 750 lei</li>
+                <li><strong>Nuntă:</strong> 4000 lei</li>
+                <li><strong>Ședință foto:</strong> 400 lei</li>
+            </ul>
+        </section>
+        
+        <section id="galerie">
+            <h2>Galerie foto</h2>
+            <div class="gallery">
+                <img src="pictures/TOP07052.jpg" alt="" />
+                <img src="pictures/TOP07121.jpg" alt="" />
+                <img src="pictures/TOP07050-2.jpg" alt="" />
+            </div>
+        </section>
+        
+        <section id="testimoniale">
+            <h2>Testimoniale</h2>
+            <p><em>„Un fotograf extraordinar! Pozele au ieșit superbe.”</em> – Andrei Popescu</p>
+            <p><em>„Servicii de calitate, recomand cu încredere!”</em> – Maria Ionescu</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p><strong>Nume:</strong> Tudor Sebastian</p>
+                <p><strong>Telefon:</strong> <a href="tel:0741940601">0741940601</a></p>
+                <p><strong>Email:</strong> <a href="mailto:tudorsebastian.torcica@ulbsibiu.ro">tudorsebastian.torcica@ulbsibiu.ro</a></p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Tudor Sebastian - Toate drepturile rezervate</p>
+    </footer>
+</body>
+</html>
